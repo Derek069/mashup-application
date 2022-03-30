@@ -1,14 +1,13 @@
-
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Comics from './pages/marvelPage';
 
 function App() {
   return (
     <Router>
       <Routes>
-        {/* <Route exact path= '/' element = {<Comics/>}/>sALVADOR Y lUIS */}
-        <Route exact path= '/series' element = {<Series/>}/>
+        <Route exact path= '/' element = {<Comics/>}/>
       </Routes>
     </Router>
   );
