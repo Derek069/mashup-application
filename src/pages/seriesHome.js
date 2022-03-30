@@ -1,5 +1,5 @@
 import React from "react";
-import http from "../lib/request";
+import http from "../lib/mashupAPIRequest";
 import Serie from "../components/Serie";
 
 class SeriesHome extends React.Component{
