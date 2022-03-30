@@ -24,7 +24,7 @@ function Comics() {
 
 
   useEffect(()=>{
-    axios.get('https://gateway.marvel.com:443/v1/public/comics?format=comic&formatType=comic&noVariants=true&title=fantastic%20four&ts=1&apikey=84c9afc670217a09f2566ca3189177f9&hash=273ddb932eb9647e18e21c589d55f000').then(res=>{
+    axios.get('https://gateway.marvel.com:443/v1/public/comics?format=comic&formatType=comic&noVariants=true&startYear=2018&ts=1&apikey=84c9afc670217a09f2566ca3189177f9&hash=273ddb932eb9647e18e21c589d55f000').then(res=>{
         setCharacters(res.data.data.results)
  
 
@@ -55,7 +55,7 @@ function Comics() {
                     src={`${per.thumbnail.path}.${per.thumbnail.extension}`}
                 />
             <div className="Character__data">
-                <h1 className="Character__name">{per.title}</h1>
+                <h2 className="Character__name">{per.title}</h2>
             </div>
         </div>
 

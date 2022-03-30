@@ -103,3 +103,6 @@
     color: #fff;
     padding: 5px;
   }
+  div.Character__data{
+      font-size: medium;
+  }
