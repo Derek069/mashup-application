@@ -112,6 +112,7 @@
     background-color: #a51010;
     color: #fff;
     padding: 5px;
+
   }
   div.Character__data{
       font-size: medium;
@@ -123,4 +124,11 @@
     border-top-right-radius: 10px;
     padding: 5px;
     padding-bottom: 10px;
+  }
+  
+  .seriesbutton{
+    background-color: #282c34;
+    padding: 10px;
+    color: #fff;
+    margin-top: 0%;
   }
