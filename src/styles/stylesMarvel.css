@@ -27,6 +27,15 @@
     color: black;
   
   }
+
+  .title {
+    color: #fff;
+    background-color: #F0131e;
+    font-size: 48px;
+    font-family: Arial;
+    margin: 0px;
+    padding-bottom: 10px;
+  }
   
   .App-link {
     color: #a51010;
@@ -82,7 +91,8 @@
     width: 500px;
   }
   .Character__description {
-    text-align: center;
+    text-align: justify;
+    padding: 5px 15px;
   }
   div.App_Header{
     text-align: center;
@@ -105,4 +115,12 @@
   }
   div.Character__data{
       font-size: medium;
+  }
+
+  div.Character__data_serie{
+    background-color: #a51010 ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    padding-bottom: 10px;
   }

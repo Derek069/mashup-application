@@ -17,15 +17,20 @@ class SeriesHome extends React.Component{
     render(){
         return(
             <React.Fragment>
-                 <body>
-                     <h1>Marvel's Comic Series</h1>
-                     
+                 <div className="App">
+                    <div className='header'>
+                        <img className='logoMarvel'src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/1200px-Marvel_Logo.svg.png' />
+                    </div>
+                    <h1 className="title">Comic Series</h1>
+                    <div className='students'>
+                        Derek Alvarado, Alex Barraza, Omar Ramos, Luis Hernández, Salvador Perez and Luis Villa
+                    </div>
                      <div> 
                         {this.state.series.map((serie) => 
                         {return <Serie serie = {serie}/>
                         })}
-                        </div> 
-                 </body>
+                    </div>
+                </div>
             </React.Fragment> 
         )
     }
